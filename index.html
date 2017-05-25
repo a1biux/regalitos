@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <title>** Regalitos **
+		</title>
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat|Allerta" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/regalitos.css">
+	</head>
+	<body>
+		<section id="portada" class="portada background"><!-- portada -->
+			<header id="header" class="header contenedor"><!-- header -->
+				<figure class="logotipo"><!-- logotipo -->
+					<img src="images/logo.png" width="186" height="60" alt="Regalitos logo"/>
+				</figure>
+				<nav class="menu"><!--menú -->
+					<ul>
+						<li>
+							<a href="index.html">Inicio</a>
+						</li>
+						<li>
+							<a href="#regalos">Productos</a>
+						</li>
+						<li>
+							<a href="precios.html">Precios</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<div class="contenedor">
+				<h1 class="titulo">Regalitos para todos!! </h1><!--titulo -->
+				<h3 class="title-a">Detalles que dejan marca</h3><!--resumen -->
+				<a class="button" href="#regalos">Aprender más</a><!--botón -->
+			</div>
+		</section>
+		<section id="regalos" class="regalos contenedor"><!-- regalos -->
+			<h2>Nuestros productos</h2><!--titulo -->
+			<article class="regalo"><!--regalo1 -->
+				<img class="derecha" src="images/taza.png" alt="Taza" width="350" />
+				<div class="contenedor-regalo-a">
+					<h3 class="title-b">Tazas</h3>
+					<ol>
+						<li>Tazas con leyendas personalizadas</li>
+						<li>Tazas con fotografías</li>
+						<li>Originales de regalitos</li>
+					</ol>
+				</div>
+			</article>
+			<article class="regalo b"><!--regalo2 -->
+				<img class="izquierda" src="images/playera.png" alt="Playeras" width="350" />
+				<div class="contenedor-regalo-b">
+					<h3 class="title-b">Playeras</h3>
+					<ol>
+						<li>Pareja de playeras <3 </li>
+						<li>Diseñadas por tí</li>
+						<li>Originales de regalitos</li>
+					</ol>
+				</div>
+			</article>
+		</section>
+		<footer class="footer">
+			<div class="contenedor">
+				<div class="contacto">
+					<img src="images/logo_b.png" alt="logotipo blanco" height="150px" width="380px" />
+					<a href="tel:+5702665565"><strong>Teléfono </strong><span>02665565</span></a> 
+					<a href="mailto:contacto@invie.com"><strong>E-mail </strong><span>contacto@invie.com</span></a>
+				</div>
+				<form class="formulario">
+					<div class="col1">
+						<label for="nombre">Nombre</label>
+						<input type="text" required id="nombre" name="nombre" />
+						<label for="email">E-mail</label>
+						<input type="email" required id="email" name="email" />
+						<div class="sexo">
+							<label for="mujer">
+								<input type="radio" checked id="mujer" name="sexo" value="mujer"> mujer
+							</label>
+							<label for="hombre">
+								<input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+							</label>	
+						</div>		
+						<div class="intereses">
+							<label for="cotizacion">
+								<input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"/> Cotización
+							</label>
+							<label for="reclamos">
+								<input type="checkbox" id="reclamos" name="intereses" value="reclamos"/> Reclamos
+							</label>
+							<label for="comentarios">
+								<input type="checkbox" id="comentarios" name="intereses" value="comentarios"/> Comentarios
+							</label>
+							<label for="otros">
+								<input type="checkbox" id="otros" name="intereses" value="otros"/> Otros
+							</label>
+						</div>	
+					</div>
+					<div class="col2">
+						<label for="comentarios">Comentarios</label>
+						<textarea name="comentarios" id="comentarios" cols="25" rows="7"></textarea>
+						<input type="submit" name="Enviar" class="button">
+					</div>
+				</form>
+			</div>
+		</footer>
+	</body>
+</html>
